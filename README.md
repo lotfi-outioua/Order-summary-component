@@ -3,7 +3,7 @@
 
   
 
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Order summary card coding challenge](./screenshot-desktop-view.png)
 
   
 
