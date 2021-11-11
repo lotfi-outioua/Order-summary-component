@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("../../public/images/pattern-background-mobile.svg");
+  background-color: #E0E8FF;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 376px) {
+  body {
+    background-image: url("../../public/images/pattern-background-desktop.svg");
+  }
+}
+@media screen and (min-width: 1445px) {
+  body {
+    background-image: none;
+  }
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.container .main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 600px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 8px 10px #CAC8FF;
+}
+@media screen and (min-width: 580px) {
+  .container .main {
+    width: 50%;
+    height: 700px;
+    transition: 0.5s;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container .main {
+    width: 30%;
+    transition: 0.5s;
+  }
+}
+.container .main .illustration img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+@media screen and (min-width: 580px) {
+  .container .main .illustration img {
+    height: 200px;
+  }
+}
+.container .main .content {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 0 20px;
+  text-align: center;
+}
+.container .main .content .title {
+  font-weight: bold;
+  font-size: 24px;
+}
+@media screen and (min-width: 700px) {
+  .container .main .content .title {
+    font-size: 32px;
+  }
+}
+.container .main .content .description {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #767B95;
+}
+.container .main .plan {
+  width: 90%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 24px 10px;
+  border-radius: 12px;
+  background-color: #EDEEF6;
+  font-size: 16px;
+}
+@media screen and (min-width: 700px) {
+  .container .main .plan {
+    padding: 30px 20px;
+    font-size: 18px;
+    transition: 0.5s;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container .main .plan {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+.container .main .plan img {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (min-width: 700px) {
+  .container .main .plan img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.container .main .plan .plan-description {
+  margin-left: 16px;
+}
+@media screen and (min-width: 700px) {
+  .container .main .plan .plan-description {
+    margin-left: 24px;
+  }
+}
+.container .main .plan .plan-description .plan-title {
+  font-size: 18px;
+}
+@media screen and (min-width: 700px) {
+  .container .main .plan .plan-description .plan-title {
+    font-size: 20px;
+  }
+}
+.container .main .plan a {
+  position: absolute;
+  right: 10px;
+  color: #2A01BF;
+  text-decoration: none;
+}
+.container .main .plan a:hover {
+  cursor: pointer;
+  color: #756BF2;
+  text-decoration: underline;
+}
+@media screen and (min-width: 580px) {
+  .container .main .plan a {
+    right: 24px;
+  }
+}
+.container .main .action {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 32px;
+  gap: 18px;
+}
+.container .main .action .payment {
+  padding: 14px 10px;
+  color: #fff;
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+  background-color: #382AE1;
+  box-shadow: 0px 10px 8px #CAC8FF;
+}
+.container .main .action .payment:hover {
+  background-color: #756BF2;
+  cursor: pointer;
+}
+@media screen and (min-width: 580px) {
+  .container .main .action .payment {
+    padding: 18px;
+    font-size: 18px;
+  }
+}
+.container .main .action .cancel {
+  margin-top: 8px;
+  border: none;
+  background: none;
+  color: #767B95;
+  font-weight: 600;
+}
+.container .main .action .cancel:hover {
+  color: black;
+  cursor: pointer;
+}
+@media screen and (min-width: 580px) {
+  .container .main .action .cancel {
+    font-size: 16px;
+  }
+}
+.container .attribution {
+  position: absolute;
+  text-align: center;
+  bottom: 5px;
+}
+.container .attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
