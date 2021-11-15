@@ -11,7 +11,7 @@
 
   
 
-Here is my first frontend coding challenge.
+I am proud of this frontend coding challenge.
 
   
 
